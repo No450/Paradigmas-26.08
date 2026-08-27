@@ -135,6 +135,5 @@ INICIO
 
     FIMENQUANTO
     escrever("=== PROGRAMA ENCERRADO ===")
-
 FIM
 
