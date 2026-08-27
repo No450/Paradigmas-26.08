@@ -45,7 +45,7 @@ Este repositório possui **finalidade exclusivamente acadêmica** e será atuali
 
 ---
 
-<div align="center">
+
 
 ### Universidade Federal do Maranhão — UFMA
 
@@ -56,4 +56,3 @@ Desenvolvido por
 
 `Matrícula: 2023088523`
 
-</div>
