@@ -2,7 +2,6 @@
 
 > Repositório acadêmico destinado ao armazenamento de atividades, exercícios e projetos desenvolvidos durante a disciplina de **Paradigma da Programação** na **Universidade Federal do Maranhão (UFMA)**.
 
----
 
 ## 🎓 Informações Acadêmicas
 
