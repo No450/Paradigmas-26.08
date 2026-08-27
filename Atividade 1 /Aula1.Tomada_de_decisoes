@@ -1,44 +1,95 @@
-INICIO 
+#include <stdio.h>
+#include <string.h>
+#include <locale.h>
 
-escrever("Programa de Tomada de decisões")
-enquanto escolha != 0 FACA
+int main() {
 
-	INICIO
-		escrever ("Nome: ");  
-		leia (nome);
+    char nome[100];
+    char nome_produto[50];
+    int idade, quantidade, escolha = 1;
+    float saldo_disponivel, preco_produto, valor_total, saldo_restante, valor_faltante;
 
-		escrever("Idade: "); 
-		leia (idade);
+    printf("========================================\n");
+    printf("     PROGRAMA DE TOMADA DE DECISOES     \n");
+    printf("========================================\n\n");
 
-    escrever ("Produto: "); 
-    leia (nome
-		escrever("Saldo Disponivel: "); 
-		leia(Saldo_disponivel); 
+    while (escolha != 0) {
 
-		escrever("Preço do produto: "); 
-		leia(preco_produto);
+        printf("Nome do cliente: ");
+		scanf("%s", nome);
 
-		escrever("Quantidade desejada: "); 
-		leia(quantidade);
+        printf("Idade: ");
+        scanf("%d", &idade);
 
-		SE idade >= 18 e Saldo_disponivel >= preco_produto ENTAO
-			escreva (" {nome} na idade de {idade} tem o saldo disponivel de R${saldo_disponivel}",nome,idade,saldo_disponivel);
-		
-		SENAO SE idade >= 18 e Saldo_disponivel < preco_produto ENTAO 
-			escreva("Voce tem idade, porém não tem saldo); 
-		
-		SENAO SE idade < 18 e Saldo_disponivel >= preco_produto ENTAO 
-			escreva("Voce não tem idade, porém tem saldo); 
-		
-		SENAO SE idade < 18 e Saldo_disponivel < preco_produto ENTAO 
-			escreva("Voce nao tem idade e nem saldo); 
-		
-		SENAO 	
-			escreva("COMPRA INVALIDA") 
-		  
-		ESCREVA("DIGITE 0 PARA ENCERRAR O PROGRAMA"); 
-	FIM 
+        printf("Nome do produto: ");
+		scanf("%s", produto);
 
-ESCREVA("PROGRAMA ENCERRADO");
+        printf("Saldo disponivel: R$ ");
+        scanf("%f", &saldo_disponivel);
 
-FIM
+        printf("Preco unitario do produto: R$ ");
+        scanf("%f", &preco_produto);
+
+        printf("Quantidade desejada: ");
+        scanf("%d", &quantidade);
+
+        /* Calcula o valor total da compra */
+        valor_total = preco_produto * quantidade;
+
+        printf("\n===============================\n");
+        printf("         DADOS DA COMPRA         \n");
+        printf("=================================\n");
+
+        printf("Cliente: %s\n", nome);
+        printf("Idade: %d anos\n", idade);
+        printf("Produto: %s\n", nome_produto);
+        printf("Preco unitario: R$ %.2f\n", preco_produto);
+        printf("Quantidade: %d\n", quantidade);
+        printf("Valor total: R$ %.2f\n", valor_total);
+        printf("Saldo disponivel: R$ %.2f\n", saldo_disponivel);
+
+        printf("========================================\n\n");
+
+        /* Condicional */
+        if (idade >= 18 && saldo_disponivel >= valor_total) {
+
+            saldo_restante = saldo_disponivel - valor_total;
+
+            printf("COMPRA APROVADA!\n\n");
+
+            printf("%s, voce pode comprar %d unidades do produto %s.\n",nome, quantidade, nome_produto);
+            printf("Valor da compra: R$ %.2f\n", valor_total);
+            printf("Saldo restante: R$ %.2f\n", saldo_restante);
+
+        } else if (idade >= 18 && saldo_disponivel < valor_total) {
+
+            valor_faltante = valor_total - saldo_disponivel;
+
+            printf("COMPRA NEGADA!\n");
+            printf("Voce possui idade suficiente, mas nao possui saldo suficiente.\n");
+            printf("Valor que esta faltando: R$ %.2f\n", valor_faltante);
+
+        } else if (idade < 18 && saldo_disponivel >= valor_total) {
+            printf("COMPRA NEGADA!\n");
+            printf("Voce possui saldo suficiente, mas nao possui idade suficiente.\n");
+
+        } else {
+            printf("COMPRA NEGADA!\n");
+            printf("Voce nao possui idade e nem saldo suficientes.\n");
+        }
+
+        printf("\n========================================\n");
+
+        printf("Digite 0 para encerrar o programa.\n");
+        printf("Digite 1 para realizar outra compra.\n");
+        printf("Opcao: ");
+        scanf("%d", &escolha);
+        printf("\n");
+    }
+
+    printf("========================================\n");
+    printf("          PROGRAMA ENCERRADO             \n");
+    printf("========================================\n");
+
+    return 0;
+}
