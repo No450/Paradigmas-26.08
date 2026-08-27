@@ -33,7 +33,6 @@ int main() {
         printf("Quantidade desejada: ");
         scanf("%d", &quantidade);
 
-        /* Calcula o valor total da compra */
         valor_total = preco_produto * quantidade;
 
         printf("\n===============================\n");
@@ -55,7 +54,7 @@ int main() {
 
             saldo_restante = saldo_disponivel - valor_total;
 
-            printf("COMPRA APROVADA!\n\n");
+            printf("COMPRA APROVADA\n\n");
 
             printf("%s, voce pode comprar %d unidades do produto %s.\n",nome, quantidade, nome_produto);
             printf("Valor da compra: R$ %.2f\n", valor_total);
@@ -65,16 +64,16 @@ int main() {
 
             valor_faltante = valor_total - saldo_disponivel;
 
-            printf("COMPRA NEGADA!\n");
+            printf("COMPRA NEGADA\n");
             printf("Voce possui idade suficiente, mas nao possui saldo suficiente.\n");
             printf("Valor que esta faltando: R$ %.2f\n", valor_faltante);
 
         } else if (idade < 18 && saldo_disponivel >= valor_total) {
-            printf("COMPRA NEGADA!\n");
+            printf("COMPRA NEGADA\n");
             printf("Voce possui saldo suficiente, mas nao possui idade suficiente.\n");
 
         } else {
-            printf("COMPRA NEGADA!\n");
+            printf("COMPRA NEGADA\n");
             printf("Voce nao possui idade e nem saldo suficientes.\n");
         }
 
@@ -92,4 +91,4 @@ int main() {
     printf("========================================\n");
 
     return 0;
-}
+};
