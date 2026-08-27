@@ -1,9 +1,9 @@
-# 💻 Paradigma da Programação
+# Paradigma da Programação
 
 > Repositório acadêmico destinado ao armazenamento de atividades, exercícios e projetos desenvolvidos durante a disciplina de **Paradigma da Programação** na **Universidade Federal do Maranhão (UFMA)**.
 
 
-## 🎓 Informações Acadêmicas
+## Informações Acadêmicas
 
 | Informação | Descrição |
 |---|---|
@@ -13,13 +13,13 @@
 | **Período Letivo** | 2026.2 |
 | **Disciplina** | Paradigma da Programação |
 | **Turma** | 246N34 |
-| **Professor** | [Rondineli Seba Salomao](https://sigaa.ufma.br/sigaa/public/docente/portal.jsf?siape=3519545) |
+| **Professor** | [Rondineli Seba Salomao](https://sigaa.ufma.br/sigaa/ava/index.jsf) |
 
 ---
 
-## 📚 Sobre a Disciplina
 
-A disciplina de **Paradigma da Programação** tem como objetivo estudar diferentes abordagens utilizadas na construção de programas e na resolução de problemas computacionais.
+
+## 📚 Sobre a Disciplina
 
 Durante a disciplina serão desenvolvidos exercícios e atividades envolvendo conceitos de lógica de programação, algoritmos e diferentes paradigmas de desenvolvimento.
 
