@@ -1,1 +1,44 @@
+INICIO 
 
+escrever("Programa de Tomada de decisões")
+enquanto escolha != 0 FACA
+
+	INICIO
+		escrever ("Nome: ");  
+		leia (nome);
+
+		escrever("Idade: "); 
+		leia (idade);
+
+    escrever ("Produto: "); 
+    leia (nome
+		escrever("Saldo Disponivel: "); 
+		leia(Saldo_disponivel); 
+
+		escrever("Preço do produto: "); 
+		leia(preco_produto);
+
+		escrever("Quantidade desejada: "); 
+		leia(quantidade);
+
+		SE idade >= 18 e Saldo_disponivel >= preco_produto ENTAO
+			escreva (" {nome} na idade de {idade} tem o saldo disponivel de R${saldo_disponivel}",nome,idade,saldo_disponivel);
+		
+		SENAO SE idade >= 18 e Saldo_disponivel < preco_produto ENTAO 
+			escreva("Voce tem idade, porém não tem saldo); 
+		
+		SENAO SE idade < 18 e Saldo_disponivel >= preco_produto ENTAO 
+			escreva("Voce não tem idade, porém tem saldo); 
+		
+		SENAO SE idade < 18 e Saldo_disponivel < preco_produto ENTAO 
+			escreva("Voce nao tem idade e nem saldo); 
+		
+		SENAO 	
+			escreva("COMPRA INVALIDA") 
+		  
+		ESCREVA("DIGITE 0 PARA ENCERRAR O PROGRAMA"); 
+	FIM 
+
+ESCREVA("PROGRAMA ENCERRADO");
+
+FIM
