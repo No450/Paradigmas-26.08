@@ -1,3 +1,13 @@
+### Universidade Federal do Maranhão — UFMA
+
+**Paradigma da Programação | 2026.2**
+
+Desenvolvido por  
+**Noam Willyan de Araujo Costa**
+
+`Matrícula: 2023088523`
+
+
 # Paradigma da Programação
 
 > Repositório acadêmico destinado ao armazenamento de atividades, exercícios e projetos desenvolvidos durante a disciplina de **Paradigma da Programação** na **Universidade Federal do Maranhão (UFMA)**.
@@ -43,16 +53,4 @@ Paradigma-da-Programacao/
 
 Este repositório possui **finalidade exclusivamente acadêmica** e será atualizado conforme o desenvolvimento das aulas e atividades propostas durante o período letivo **2026.2**.
 
----
-
-
-
-### Universidade Federal do Maranhão — UFMA
-
-**Paradigma da Programação | 2026.2**
-
-Desenvolvido por  
-**Noam Willyan de Araujo Costa**
-
-`Matrícula: 2023088523`
 
