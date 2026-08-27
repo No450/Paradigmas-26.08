@@ -15,15 +15,11 @@
 | **Turma** | 246N34 |
 | **Professor** | [Rondineli Seba Salomao](https://sigaa.ufma.br/sigaa/ava/index.jsf) |
 
----
-
-
 
 ## 📚 Sobre a Disciplina
 
 Durante a disciplina serão desenvolvidos exercícios e atividades envolvendo conceitos de lógica de programação, algoritmos e diferentes paradigmas de desenvolvimento.
 
----
 
 ## 📂 Estrutura do Repositório
 
@@ -34,57 +30,14 @@ Paradigma-da-Programacao/
 │
 ├── atividades/
 │   ├── atividade-01/
-│   ├── atividade-02/
-│   └── atividade-03/
+│   
+│   
 │
 ├── exercicios/
 │
 └── projetos/
 ```
 
----
-
-## 🎯 Objetivos do Repositório
-
-- 📌 Registrar as atividades desenvolvidas durante a disciplina;
-- 🧠 Praticar lógica de programação e resolução de problemas;
-- 💻 Desenvolver algoritmos utilizando diferentes paradigmas;
-- 🔄 Comparar diferentes formas de implementação;
-- 📚 Organizar os conteúdos estudados durante o semestre;
-- 🚀 Acompanhar a evolução dos conhecimentos adquiridos.
-
----
-
-## 📝 Atividades
-
-| Nº | Atividade | Descrição | Status |
-|:---:|---|---|:---:|
-| `01` | Tomada de Decisão | Estruturas condicionais e lógica de decisão | 🚧 Em desenvolvimento |
-| `02` | A definir | — | ⏳ Pendente |
-| `03` | A definir | — | ⏳ Pendente |
-
----
-
-## 🧠 Conteúdos
-
-```text
-├── Lógica de Programação
-├── Algoritmos
-├── Pseudocódigo
-├── Estruturas Condicionais
-├── Estruturas de Repetição
-├── Programação Estruturada
-└── Paradigmas de Programação
-```
-
----
-
-## 🛠️ Tecnologias
-
-![Git](https://img.shields.io/badge/Git-Versionamento-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?style=for-the-badge&logo=github&logoColor=white)
-
----
 
 ## 📌 Finalidade
 
