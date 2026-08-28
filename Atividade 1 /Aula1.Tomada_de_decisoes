@@ -49,7 +49,7 @@ int main() {
 
         printf("========================================\n\n");
 
-        /* Condicional */
+        /* Aplicando as condições */
         if (idade >= 18 && saldo_disponivel >= valor_total) {
 
             saldo_restante = saldo_disponivel - valor_total;
