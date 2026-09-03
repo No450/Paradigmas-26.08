@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <locale.h>
+/*[1]- verdadeiro, [2] - falso*/
+
+int main()
+{
+
+    float saldo = 1000 ,deposito,consultaSaldo, sacar;
+    int escolha, cont,resultado;
+    bool condicao = false;
+
+    printf("============== CAIXA ELETRONICO ============");
+
+    while (escolha != condicao){
+        printf("\n[1] ConsultarSaldo\n");
+        printf("[2] Depositar\n");
+        printf("[3] Sacar\n");
+        printf("[4] Encerrar\n");
+        printf("Escolha: ");
+        scanf("%d",&escolha);
+
+        if (escolha == 1){
+            printf("%f",saldo);
+        }
+        else if (escolha == 2){
+            printf("Deposito: ");
+            scanf("%f",&deposito);
+
+        printf("\nO seu deposito de: R$%2.f",deposito,"Foi adicionado!\n"); 
+        printf("\nTotal restante é de: R$ %2.f",deposito+saldo);
+
+        }
+        else if (escolha == 3){
+            printf("Sacar: ");
+            scanf("%f",&sacar);
+
+            if (sacar <= saldo){
+                
+                resultado = saldo - sacar;
+
+                printf("\nO seu Saque de: R$%2.f",sacar,"Foi retirado!\n");
+                printf("\nTotal restante é de: R$ %2.f",resultado);
+
+            }else{
+                printf("O saque retirado é menor que o saldo");
+            }
+           
+        }
+        else if (escolha == 4){
+            escolha = condicao;
+            printf("Encerrado...");
+        }
+        else{
+            printf("Opcao invalida");
+        }
+    printf("\n============================================\n");
+
+    }   
+};
