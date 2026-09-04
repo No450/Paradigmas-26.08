@@ -1,0 +1,47 @@
+INÍCIO
+
+Definir o saldo inicial como R$ 1.000,00.
+
+Enquanto o caixa eletrônico não for encerrado, faça:
+
+    Mostrar "CAIXA ELETRÔNICO".
+
+    Mostrar as opções:
+        [1] Consultar saldo
+        [2] Depositar
+        [3] Sacar
+        [4] Encerrar
+
+    Ler a opção escolhida pelo usuário.
+
+    Se a opção escolhida for 1:
+        Mostrar o saldo atual.
+
+    Senão, se a opção escolhida for 2:
+        Solicitar o valor do depósito.
+        Ler o valor do depósito.
+        Adicionar o valor do depósito ao saldo.
+        Mostrar que o depósito foi realizado.
+        Mostrar o saldo atualizado.
+
+    Senão, se a opção escolhida for 3:
+        Solicitar o valor do saque.
+        Ler o valor do saque.
+
+        Se o valor do saque for menor ou igual ao saldo:
+            Subtrair o valor do saque do saldo.
+            Mostrar que o saque foi realizado.
+            Mostrar o saldo atualizado.
+        Senão:
+            Mostrar "Saldo insuficiente".
+
+    Senão, se a opção escolhida for 4:
+        Encerrar o caixa eletrônico.
+        Mostrar "Encerrado".
+
+    Senão:
+        Mostrar "Opção inválida".
+
+Fim enquanto.
+
+FIM
