@@ -1,1 +1,68 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
 
+void calcularMedia(int qtdnotas, float * media) {
+    float soma = 0.0, nota;
+    for (int i = 0; i < qtdnotas; i++) {
+        printf("Digite a nota %d: ", i + 1);
+        scanf("%f", &nota);
+        soma = soma + nota;
+    }
+    *media = soma / qtdnotas; 
+}
+
+char calcularConceito(float media) {
+    if (media >= 9.5) {
+        return 'A';
+    } else if (media >= 8.0) {
+        return 'B';
+    } else if (media >= 7.0) {
+        return 'C';
+    } else if (media >= 6.0) {
+        return 'D';
+    } else {
+        return 'E';
+    }
+}
+
+void mostrAproveitamento(char conceito) {
+    if (conceito == 'A' || conceito == 'B' || conceito == 'C') {
+        printf("Aproveita\n");
+    } else {
+        printf("Nao ap.\n");
+    }
+}
+
+int main() {
+    int qtdDisciplinas;
+
+    printf("Quantas disciplinas quer inserir? ");
+    scanf("%d", &qtdDisciplinas);
+
+    char nomes[50][30];
+    char conceitos[50];
+
+    for (int i = 0; i < qtdDisciplinas; i++) {
+        int qtdnotas;
+        float media;
+
+        printf("\nNome da disciplina %d: ", i + 1);
+        scanf("%s", nomes[i]);
+
+        printf("Quantas notas tem a disciplina %s? ", nomes[i]);
+        scanf("%d", &qtdnotas);
+
+        calcularMedia(qtdnotas, &media);
+        conceitos[i] = calcularConceito(media);
+    }
+
+    printf("\nDisciplina\tClassif.\tAproveita p/ Dr\n");
+
+    for (int i = 0; i < qtdDisciplinas; i++) {
+        printf("%s\t%c\t", nomes[i], conceitos[i]);
+        mostrAproveitamento(conceitos[i]);
+    }
+
+    return 0;
+}
