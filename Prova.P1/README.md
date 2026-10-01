@@ -8,8 +8,8 @@ Desenvolvido por
 
 | Informação | Descrição |
 |---|---|
-| **Aluno** | Noam Willyan de Araujo Costa | Diego Samarone Costa Silva
-| **Matrícula** | 2023088523 | 20190039050
+| **Aluno** | Noam Willyan de Araujo Costa | Diego Samarone Costa Silva |
+| **Matrícula** | 2023088523 | 20190039050 |
 | **Universidade** | Universidade Federal do Maranhão — UFMA |
 | **Período Letivo** | 2026.2 |
 | **Disciplina** | Paradigma da Programação |
