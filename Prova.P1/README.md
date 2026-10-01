@@ -6,7 +6,7 @@ Desenvolvido por
 
 ## Informações Acadêmicas
 
-| Informação | NOME1 | NOME2
+| Informação | DESCRICAO | DESCRICAO
 |---|---|---|
 | **Aluno** | Noam Willyan de Araujo Costa | Diego Samarone Costa Silva |
 | **Matrícula** | 2023088523 | 20190039050 |
