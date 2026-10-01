@@ -17,4 +17,5 @@ Desenvolvido por
 | **Professor** | [Rondineli Seba Salomao](https://sigaa.ufma.br/sigaa/ava/index.jsf) |
 
 #Pergunta realizada pelo ChatGPT
+
 "Me de exemplos detalhados de aplicações simples de paradigmas funcionais e imperativo em python usando labmda, filter, map, listas"
