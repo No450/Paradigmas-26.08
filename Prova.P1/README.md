@@ -6,8 +6,8 @@ Desenvolvido por
 
 ## Informações Acadêmicas
 
-| Informação | Descrição |
-|---|---|
+| Informação | NOME1 | NOME2
+|---|---|---|
 | **Aluno** | Noam Willyan de Araujo Costa | Diego Samarone Costa Silva |
 | **Matrícula** | 2023088523 | 20190039050 |
 | **Universidade** | Universidade Federal do Maranhão — UFMA |
