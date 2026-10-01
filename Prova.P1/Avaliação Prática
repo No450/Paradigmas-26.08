@@ -1,1 +1,46 @@
+#IMPERATIVO e FUNCIONAL 
+
+lista_nota = []
+
+def notas():
+    for i in range(5):
+        nota = float(input('digite a nota: '))
+        lista_nota.append(nota)
+        
+        
+    return lista_nota
+    
+def media(lista_nota):
+    soma = sum(lista_nota)
+    media = soma / len(lista_nota)
+    return media
+
+def notas_acima_media(lista_nota):
+    aprovados = list(filter(lambda lista_nota: lista_nota >= 7, lista_nota))
+    
+    return aprovados
+
+
+def aprovacao(media):
+    if (media < 7):
+        return "Reprovado"
+    elif (media >= 7): 
+        return "Aprovado"
+    else: 
+        return "Opcao invalida"
+
+notas = notas()
+media = media(notas)
+Aprovacao = aprovacao(media)
+
+print("Media:", media)
+print("Status:",aprovacao(media))
+print("Todas as notas: ", lista_nota)
+print("Notas acima da Média: ", notas_acima_media(notas))
+
+
+
+
+
+
 
