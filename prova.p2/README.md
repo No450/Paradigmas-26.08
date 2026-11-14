@@ -48,7 +48,3 @@ A classe `Aluno` reúne os dados e as operações:
 - `verificar_aprovacao`: verifica se a média é maior ou igual a 7;
 - `notas_acima_media`: separa as notas maiores que a média calculada;
 - `exibir_resultado`: mostra os resultados no terminal.
-
-## Observação
-
-Este é um exercício de POO. A entrada de notas ainda pode ser melhorada para tratar casos em que o usuário digita letras ou outros valores inválidos.
