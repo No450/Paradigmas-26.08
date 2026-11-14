@@ -15,19 +15,10 @@ Ao executar o programa, é solicitado o nome do aluno e, em seguida, cinco notas
 A média mínima para aprovação é **7,0**. As notas devem estar entre **0 e 10**.
 
 ## Como executar
-
-É necessário ter o Python 3 instalado.
-
 Salve o código em um arquivo chamado `main.py` e execute no terminal:
 
 ```bash
 python3 main.py
-```
-
-No Windows, também pode ser usado:
-
-```bash
-python main.py
 ```
 
 ## Exemplo
@@ -49,7 +40,7 @@ Notas acima da média: [9.0, 10.0]
 
 ## Organização do código
 
-A classe `Aluno` reúne os dados e as operações do programa:
+A classe `Aluno` reúne os dados e as operações:
 
 - `__init__`: guarda o nome e cria a lista de notas;
 - `adicionar_nota`: adiciona uma nota, desde que esteja entre 0 e 10;
